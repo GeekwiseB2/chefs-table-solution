@@ -2,7 +2,6 @@
 body {
     position: relative;
     font-family:'PT Mono', monospace;
-    color:#222222;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -14,14 +13,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Navbar */
-.navbar-default {
-    background:#222222;
-}
-
-.navbar {
-    border:0;
-}
-
 .navbar-brand {
     padding:10px;
 }
@@ -30,16 +21,6 @@ h1,h2,h3,h4,h5,h6 {
     font-size:24px;
     font-family:'Permanent Marker', cursive;
     margin:0;
-    color:#ffffff;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color:#ffffff;
-    background:transparent;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color:#ffffff;
 }
 
 /* Home Section */
@@ -54,23 +35,12 @@ h1,h2,h3,h4,h5,h6 {
     background-attachment: fixed;
 }
 
-/* Menu Section */
-.menu-section {
-    padding-top:60px;
-    padding-bottom:60px;
-}
-
 /* Reservation Section */
 #reservation-section {
     background: #eeeeee;
 }
 
 .reservation-section {
-    padding-top:60px;
-    padding-bottom:60px;
-}
-
-.tab-pane {
     padding-top:60px;
     padding-bottom:60px;
 }
